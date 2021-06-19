@@ -61,7 +61,7 @@ if __name__=="__main__":
     while True:
         audio_input=commands().lower()
         if "hello" in audio_input:
-            speak("hii bitch")
+            speak("hii")
         elif "date" in audio_input:
             speak(str(date))
         elif "time" in audio_input:
@@ -89,11 +89,7 @@ if __name__=="__main__":
         elif "open notepad" in audio_input:
             path=r"C:\Users\Aarya\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories\Notepad"
             os.startfile(path)
-        # elif "send email" in audio_input:
-        #     try:
-
-        else:
-            pass
+        
 
 
 
